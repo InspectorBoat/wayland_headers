@@ -1,0 +1,13 @@
+.{
+    .name = .wayland_headers,
+    .version = "1.0.0",
+    .fingerprint = 0xf2f733e988c5e8bc, // Changing this has security and trust implications.
+    .paths = .{
+        "build.zig.zon",
+        "libdecor",
+        "wayland",
+        "wayland-protocols",
+        "README.md",
+    },
+    .dependencies = .{},
+}
